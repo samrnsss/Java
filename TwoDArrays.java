@@ -38,22 +38,27 @@ public class TwoDArrays{
         //taking the number of rows and columns from the user
         int rows = sc.nextInt();
         int cols = sc.nextInt();    
+
         System.out.println("Enter the number of rows and columns");
         //creating a 2D array
-        int arr[] [] = new int[rows][cols];
+        int numbers[][] = new int[rows][cols];
         //taking input for the 2D array
         System.out.println("Enter the elements of the array");
+
+        //rows input
         for(int i=0; i<rows; i++){
+            //columns input
             for(int j=0; j<cols; j++){
-                arr[i][j] = sc.nextInt();
+                numbers[i][j] = sc.nextInt();
             }
         }
         //taking the number to be searched from the user
         System.out.println("Enter the number to be searched");
         int x = sc.nextInt();
+
         for(int i=0; i<rows; i++){
             for(int j=0; j<cols; j++){
-                if(arr[i][j] == x){
+                if(numbers[i][j] == x){
                     System.out.println("x found at location: (" + i + "," + j + ")");
                 }
             }
