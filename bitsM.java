@@ -18,20 +18,17 @@
 
 
 //set bit
-//qs- set the 2nd bit(position=1) of a number n=5 (0101)
-//bit mask : 1<<i   here i=1(position of bit to be set)
+//qs- set the 4th bit(position=3) of a number n=5 (0101)
+//bit mask : 1<<i   here i=3(position of bit to be set)
 //operation : OR(|) between bit mask and n
-public class bitsM {
-    public static void main(String [] args){
-        int n =5;  //binary representation of 5 is 0101
-        int pos=3;
-        int bitMask = 1<<pos;
+// public class bitsM {
+//     public static void main(String [] args){
+//         int n =5;  //binary representation of 5 is 0101
+//         int pos=3;
 
-        if((bitMask | n) == 0){
-            System.out.println("Bit was zero");   //here OR operation is performed 
-            // which gives 0101|0010=0111 in which 2nd bit is set to 1
-        }else{
-            System.out.println("Bit was one");
-        }
-    }
-}
+//         int bitMask = 1<<pos;
+
+//         int newNumber = bitMask | n;   //here OR operation is performed
+//         System.out.println(newNumber);  //0101|0010=0111 which is 7 in decimal
+//     }
+// }
