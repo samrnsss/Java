@@ -1,10 +1,3 @@
-public class function {
-    public static void main(String[] args) {
-        // Example usage of the sumOfNumbers function
-        int result = returnconcept.sunOfNumbers(5);
-        System.out.println("The sum is: " + result);
-    }
-}
 //print the name using function
 // import java.util.Scanner;
 // public class function {
