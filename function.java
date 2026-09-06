@@ -1,6 +1,12 @@
+public class function {
+    public static void main(String[] args) {
+        // Example usage of the sumOfNumbers function
+        int result = returnconcept.sunOfNumbers(5);
+        System.out.println("The sum is: " + result);
+    }
+}
 //print the name using function
 // import java.util.Scanner;
-
 // public class function {
 //     public static void printMyName(String name){
 //         System.out.println(name);
@@ -14,6 +20,7 @@
 //     }
 // }
 
+
 //print the  sum of two numbers using function
 // import java.util.Scanner;public class function {
 //     public static int calculateSum(int a, int b){
@@ -26,7 +33,7 @@
 //         int a = sc.nextInt();
 //         System.out.print("Enter second number: ");
 //         int b = sc.nextInt();
-        
+
 //         int sum = calculateSum(a, b);  //calling the sum function
 //         System.out.println("The sum is: " + sum);
 //     }
