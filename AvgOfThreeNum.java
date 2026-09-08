@@ -1,7 +1,8 @@
 import java.util.*;
 public class AvgOfThreeNum{
     public static float avgOfThreeNum(int a, int b , int c){
-        float avg = (a+b+c)/3;
+        // float avg = (a+b+c)/3;
+        float avg =a+b+c/(float)3;
         return avg;
     }
     public static void main(String[] args){
