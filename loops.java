@@ -32,7 +32,6 @@
 
 
 
-
 //while loop 
 
 // public class loops{
@@ -125,6 +124,21 @@
 
 //         for (int i=1; i<=10; i++){
 //             System.out.println(n + " * " + i + " = " + n*i);
+//         }
+//     }
+// }
+
+//print number from 1 to n
+// import java.util.*;
+// public class loops{
+//     public static void main(String args[]){
+//         Scanner sc = new Scanner(System.in);
+//         int range = sc.nextInt();
+//         int counter = 1;
+//         while (counter <= range){
+//             System.out.println(counter + " ");
+//             counter++;
+            
 //         }
 //     }
 // }
